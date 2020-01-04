@@ -78,7 +78,7 @@ map.addLayer(drawnItems);
 	      	
 	      	if(isInsidePoint== true){
 	      		// For Markers inside the Rectangle
-	      		alert('you Selected '+ ' Lat: '+ markers[i].lat + ' Lng: '+ markers[i].lng + 'Which is ' + markers[i].name );
+	      		alert('you Selected '+ ' Lat: '+ markers[i].lat + ' Lng: '+ markers[i].lng + ' Which is ' + markers[i].name );
 	      		console.log("Marker Inside")
 	      	}
 	      	else{
